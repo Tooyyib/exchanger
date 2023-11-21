@@ -1,0 +1,169 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.color{
+    font-size: 4rem;
+    color: palegoldenrod;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: solid 2px greenyellow;
+}
+
+h3{
+    color: rgba(255, 255, 0, 0.534);
+    text-align: center;
+    text-transform: lowercase;
+}
+
+h2{
+    color: rgba(255, 255, 0, 0.534);
+    text-align: center;
+    text-transform: uppercase;
+}
+h4{
+    color: rgba(255, 255, 0, 0.534);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+h5{
+    color: rgba(255, 255, 0, 0.678);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* converter stylings  */
+
+
+body{
+    background-color: gainsboro;
+}
+
+.intro{
+    text-align: center;
+}
+
+
+h1{
+    color: rgba(0, 0, 255, 0.552);
+}
+
+.choose{
+    background-color: blue;
+    padding: 5px;
+    color: gold;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid yellowgreen;
+    border-style: dotted;
+    font-style: italic;
+}
+
+.router{
+    background-color: black;
+    padding: 3px;
+    color: gold;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 5px solid pink;
+    border-style: dashed;
+    font-style: italic;
+}
+
+.router :hover{
+    background-color: black;
+    color: white;
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.first{
+    display: flex;
+    justify-content: center;
+}
+.pikin{
+    width: 50%;
+}
+
+
+
+
+/* converter div */
+.curr{
+    display: flex;
+    justify-content: center;
+}
+
+
+p{
+    color: blue;
+}
+
+
+
+input{
+width: 200px;
+background-color: blue;
+color: gold;
+font-size: large;
+text-align: center;
+}
+
+
+
+/* button */
+.button1{
+    width: 200px;
+    background-color: blue;
+    padding: 5px;
+    color: gold;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid yellowgreen;
+    border-style: dotted;
+    font-style: italic;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.button1:hover{
+    background-color: gold;
+    color: blue;
+}
+
+.exchange{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+
+select{
+    margin-bottom: 10px;
+    background-color: yellow;
+    color: blue;
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+.centra{
+    display: flex;
+    justify-content: center;
+}
